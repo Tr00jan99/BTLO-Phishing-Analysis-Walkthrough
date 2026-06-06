@@ -1,5 +1,8 @@
 # Blue Team Labs Online (BTLO) — Phishing Analysis Walkthrough
 
+**Author:** SYAFIQ RIDZUAN  
+**Student ID:** 52215125897  
+
 Welcome to the ultimate step-by-step write-up for the **Phishing Analysis** challenge on [Blue Team Labs Online (BTLO)](https://blueteamlabs.online/). This guide is designed to help security enthusiasts of all levels understand how to dissect a raw email (`.eml`) file, perform header analysis, investigate mail server bounces, and extract indicators of compromise (IOCs).
 
 ![Challenge Completed](./certificate.jpg)
