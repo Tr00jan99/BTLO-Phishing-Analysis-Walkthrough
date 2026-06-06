@@ -27,11 +27,11 @@ A spammer used a website contact form to send a spam message. The server attempt
 
 ```mermaid
 graph TD
-    A[Spammer / Bot <br> IP: 91.90.123.43] -->|Fills out Contact Form| B[Web Server <br> markgardner.com.au]
-    B -->|Sends Confirmation Email| C(kinnar1975@yahoo.co.uk)
-    C -->|SMTP Error: Mailbox Disabled 554| D[Yahoo DNS / Mail Server]
-    D -->|Generates Bounce Message| E[Mail Delivery System <br> Mailer-Daemon@se7-syd.hostedmail.net.au]
-    E -->|Delivers Failure Log to Administrator| F[johnsmith123@gmail.com]
+    A["Spammer / Bot <br> IP: 91.90.123.43"] -->|Fills out Contact Form| B["Web Server <br> markgardner.com.au"]
+    B -->|Sends Confirmation Email| C("kinnar1975@yahoo.co.uk")
+    C -->|SMTP Error: Mailbox Disabled 554| D["Yahoo DNS / Mail Server"]
+    D -->|Generates Bounce Message| E["Mail Delivery System <br> Mailer-Daemon@se7-syd.hostedmail.net.au"]
+    E -->|Delivers Failure Log to Administrator| F["johnsmith123@gmail.com"]
 ```
 
 ---
